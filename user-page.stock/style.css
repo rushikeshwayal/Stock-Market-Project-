@@ -8,6 +8,7 @@
     background: none;
     -webkit-font-smoothing: antialiased;
     font-family: Epilogue-Regular, sans-serif;
+    scroll-behavior: smooth;
    
 }
 

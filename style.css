@@ -7,11 +7,12 @@
     background: none;
     -webkit-font-smoothing: antialiased;
     font-family: Epilogue-Regular, sans-serif;
+    /* background-color: #fcf1e9; */
 }
 
 body {
     font-family: 'Epilogue', sans-serif;
-    background-color: #28293E;
+    background-color: #fcf1e9;
     color: #FFFFFF;
     margin: 0;
 }
@@ -130,9 +131,12 @@ nav {
     font-size: 20px;
     color: white;
     cursor: pointer;
+    border: 1px solid #5f5f60;
+    border-radius: 10px;
+    padding: 8px;
     position: absolute;
     right: 20px;
-    top: 40px;
+    top: 24px;
 }
 
 #check {
@@ -224,19 +228,17 @@ nav {
     }
 
     nav {
-        height: 0px;
+        height: 50px;
     }
 
     .checkbtn {
         display: flex;
         align-items: center;
     }
-    
 
     .header .logo img {
         margin-top: 0%;
         padding-top: 0%;
-        top: 0;
         height: 60px;
         /* width: 5px; */
         display: flex;
@@ -1671,3 +1673,4 @@ footer button:hover {
     max-width: 100%;
     height: auto;
 }
+
